@@ -2,9 +2,9 @@
 
 ### Contact Information
 - **Citizenship**: Chinese
-- **GitHub**: https://github.com/ywang-phy
-- **ORCiD**: https://orcid.org/0000-0002-0688-3276
-- **Email**: yuan.wang@soton.ac.uk & yuan.wang.phy@gmail.com
+- **GitHub**: <a href="https://github.com/ywang-phy" style="color:black">https://github.com/ywang-phy</a>
+- **ORCiD**: <a href="https://orcid.org/0000-0002-0688-3276" style="color:black">https://orcid.org/0000-0002-0688-3276</a>
+- **Email**: <a href="mailto:yuan.wang@soton.ac.uk" style="color:black">yuan.wang@soton.ac.uk</a> & <a href="mailto:yuan.wang.phy@gmail.com" style="color:black">yuan.wang.phy@gmail.com</a>
 
 ---
 
