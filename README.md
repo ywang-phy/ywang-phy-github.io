@@ -56,6 +56,6 @@ I am interested in the quantum theory of light-matter interactions, parallel com
 
 ### Publications
 - K. Sawicki, D. Dovzhenko, Y. Wang, H. Sigurðsson and P. G. Lagoudakis, *Occupancy-driven Zeeman suppression and inversion in trapped polariton condensates*, Manuscript in Preparation (2023)
-- Y. Wang, P. G. Lagoudakis, and H. Sigurdsson, *Enhanced coupling between ballistic exciton-polariton condensates through tailored pumping*, Physical Review B 106, 245304 (2022)
-- Y. Wang, H. Sigurdsson, J. D. Töpfer, and P. G. Lagoudakis, *Reservoir optics with exciton-polariton condensates*, Physical Review B 104, 235306 (2021)
-- Y. Wang and S. De Liberato, *Theoretical proposals to measure resonator-induced modifications of the electronic ground state in doped quantum wells*, Physical Review A 104, 023109 (2021)
+- Y. Wang, P. G. Lagoudakis, and H. Sigurdsson, *Enhanced coupling between ballistic exciton-polariton condensates through tailored pumping*, Physical Review B **106**, 245304 (2022)
+- Y. Wang, H. Sigurdsson, J. D. Töpfer, and P. G. Lagoudakis, *Reservoir optics with exciton-polariton condensates*, Physical Review B **104**, 235306 (2021)
+- Y. Wang and S. De Liberato, *Theoretical proposals to measure resonator-induced modifications of the electronic ground state in doped quantum wells*, Physical Review A **104**, 023109 (2021)
