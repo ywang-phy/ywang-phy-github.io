@@ -49,6 +49,7 @@ I am interested in the quantum theory of light-matter interactions, parallel com
 ### Skills
 
 - **Programming Languages**: C++, CUDA, MATLAB, Python
+- **Simulation**: COMSOL Multiphysics
 - **Editing**: LaTex, Microsoft Office
 
 ---
