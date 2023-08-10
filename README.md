@@ -15,27 +15,21 @@ I am interested in the quantum theory of light-matter interactions, parallel com
 
 ### Education
 
-#### **PhD in Physics** - University of Southampton
-*September 2018 - July 2023*
+Sept 2018 - July 2023: **PhD in Physics** - University of Southampton
 
-#### **Master's Degree (M2)** - University of Ferrara
-*September 2017 - July 2018*
+Sept 2017 - July 2018: **Master's Degree (M2)** - University of Ferrara
 
-#### **Master's Degree (M1 General Physics)** - Paris-Saclay University
-*September 2016 - July 2017*
+Sept 2016 - July 2017: **Master's Degree (M1 General Physics)** - Paris-Saclay University
 
-#### **Bachelor's Degree in Physics** - Anhui Normal University
-*September 2012 - July 2016*
+Sept 2012 - July 2016: **Bachelor's Degree in Physics** - Anhui Normal University
 
 ---
 
-### Internship
+### Research Internship
 
-#### **M2 Research Internship** - Quantum Theory and Technology, University of Southampton
-*February 2018 - July 2018*
+Feb 2018 - July 2018: Quantum Theory and Technology (M2), University of Southampton
 
-#### **M1 Research Internship** - Quantum Optics, Pierre and Marie Curie University
-*April 2017 - July 2017*
+Apr 2017 - July 2017: Quantum Optics (M1), Pierre and Marie Curie University
 
 ---
 
