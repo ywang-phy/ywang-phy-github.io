@@ -27,9 +27,9 @@ Sept 2012 - July 2016: **Bachelor's Degree in Physics** - Anhui Normal Universit
 
 ### Research Internship
 
-Feb 2018 - July 2018: Quantum Theory and Technology (M2), University of Southampton
+Feb 2018 - July 2018: Quantum Theory and Technology, University of Southampton
 
-Apr 2017 - July 2017: Quantum Optics (M1), Pierre and Marie Curie University
+Apr 2017 - July 2017: Quantum Optics, Pierre and Marie Curie University
 
 ---
 
