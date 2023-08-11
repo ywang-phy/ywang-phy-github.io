@@ -47,6 +47,7 @@ Apr 2017 - July 2017: Quantum Optics, Pierre and Marie Curie University
 ---
 
 ### Publications
+- [5] Y. Wang, *Tailored reservoir of exciton-polariton condensates*, University of Southampton, (2023)
 - [4] K. Sawicki, D. Dovzhenko, Y. Wang, H. Sigurðsson and P. G. Lagoudakis, *Occupancy-driven Zeeman suppression and inversion in trapped polariton condensates*, arXiv:2308.05351 (2023)
 - [3] Y. Wang, P. G. Lagoudakis, and H. Sigurdsson, *Enhanced coupling between ballistic exciton-polariton condensates through tailored pumping*, Physical Review B **106**, 245304 (2022)
 - [2] Y. Wang, H. Sigurdsson, J. D. Töpfer, and P. G. Lagoudakis, *Reservoir optics with exciton-polariton condensates*, Physical Review B **104**, 235306 (2021)
