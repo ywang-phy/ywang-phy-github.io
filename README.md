@@ -8,7 +8,7 @@
 
 ---
 
-I am interested in the quantum theory of light-matter interactions, parallel computing, and the integration of physics with machine learning.
+I am interested in the quantum theory of light-matter interactions, parallel computing, and machine learning.
 
 ---
 
