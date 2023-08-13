@@ -1,8 +1,7 @@
 # Yuan Wang
-
+- **ORCiD**: https://orcid.org/0000-0002-0688-3276
 ### Contact Information
 - **GitHub**: https://github.com/ywang-phy
-- **ORCiD**: https://orcid.org/0000-0002-0688-3276
 - **Email**: yuan.wang@soton.ac.uk & yuan.wang.phy@gmail.com
 
 ---
