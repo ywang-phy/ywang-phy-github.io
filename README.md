@@ -44,7 +44,7 @@ Apr 2017 - July 2017: Quantum Optics, Pierre and Marie Curie University
 
 ### Skills
 
-- **Programming Languages**: C++, CUDA, MATLAB, Python
+- **Programming**: C++, CUDA, MATLAB, Python
 - **Simulation**: COMSOL Multiphysics
 - **Editing**: LaTex, Microsoft Office
 
