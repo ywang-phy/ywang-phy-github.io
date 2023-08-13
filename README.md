@@ -27,7 +27,7 @@ Sept 2012 - July 2016: **Bachelor's Degree in Physics**, Anhui Normal University
 
 ---
 
-### Research Internship
+### Internship
 
 Feb 2018 - July 2018: Quantum Theory and Technology, University of Southampton
 
