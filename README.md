@@ -15,7 +15,7 @@ I am interested in the quantum theory of light-matter interactions, parallel com
 
 Sept 2018 - July 2023: **PhD in Physics**, University of Southampton
 
-Sept 2017 - July 2018: **Master's Degree (M2)**, University of Ferrara
+Sept 2017 - July 2018: **Master's Degree (M2 Nanoscience)**, University of Ferrara
 
 Sept 2016 - July 2017: **Master's Degree (M1 General Physics)**, Paris-Saclay University
 
