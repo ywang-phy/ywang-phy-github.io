@@ -17,21 +17,21 @@ Quantum Theory of Light-Matter Interactions, Parallel Computing, and Machine Lea
 
 ### Education
 
-Sept 2018 - July 2023: **PhD in Physics**, University of Southampton
+Sept 2018 - July 2023: **PhD in Physics**, University of Southampton, United Kingdom
 
-Sept 2017 - July 2018: **Master's Degree (M2 Nanoscience)**, University of Ferrara
+Sept 2017 - July 2018: **Master's Double Degree (M2 Nanoscience)**, University of Ferrara, Italy
 
-Sept 2016 - July 2017: **Master's Degree (M1 General Physics)**, Paris-Saclay University
+Sept 2016 - July 2017: **Master's Double Degree (M1 General Physics)**, Paris-Saclay University, France
 
-Sept 2012 - July 2016: **Bachelor's Degree in Physics**, Anhui Normal University
+Sept 2012 - July 2016: **Bachelor's Degree in Physics**, Anhui Normal University, China
 
 ---
 
 ### Internship
 
-Feb 2018 - July 2018: Quantum Theory and Technology, University of Southampton
+Feb 2018 - July 2018: Quantum Theory and Technology, University of Southampton, United Kingdom
 
-Apr 2017 - July 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curie Campus
+Apr 2017 - July 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curie Campus, France
 
 ---
 
