@@ -6,7 +6,7 @@
 ### Contact
 - **GitHub**: https://github.com/ywang-phy
 - **LinkedIn**: www.linkedin.com/in/ywang-phy
-- **Email**: yuan.wang@soton.ac.uk & yuan.wang.phy@gmail.com
+- **Email**: yw2e17@soton.ac.uk & yuan.wang.phy@gmail.com
 
 ---
 
