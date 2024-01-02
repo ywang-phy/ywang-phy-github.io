@@ -17,7 +17,7 @@ Quantum Theory of Light-Matter Interactions, Parallel Computing, and Machine Lea
 
 ### Education
 
-Sept 2018 - July 2023: **PhD in Physics**, University of Southampton, United Kingdom
+Sept 2018 - Sept 2023: **PhD in Physics**, University of Southampton, United Kingdom
 
 Sept 2017 - July 2018: **Master's Double Degree (M2 Nanoscience)**, University of Ferrara, Italy
 
