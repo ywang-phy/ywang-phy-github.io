@@ -6,7 +6,7 @@
 ### Contact
 - **GitHub**: https://github.com/ywang-phy
 - **LinkedIn**: www.linkedin.com/in/ywang-phy
-- **Email**: yw2e17@soton.ac.uk & yuan.wang.phy@gmail.com
+- **Email**: y.wang25@exeter.ac.uk & yuan.wang.phy@gmail.com
 
 ---
 
@@ -14,6 +14,12 @@
 Quantum Theory of Light-Matter Interactions, Parallel Computing, and Machine Learning.
 
 ---
+
+### Experience
+
+August 2024 - Present: **Postdoctoral Research Fellow**, University of Exeter, United Kingdom
+
+August 2023 - July 2024: **Visitor**, University of Southampton, United Kingdom
 
 ### Education
 
