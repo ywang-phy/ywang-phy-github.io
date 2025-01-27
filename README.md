@@ -47,7 +47,7 @@ Apr 2017 - Jul 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curi
 
 - Poster presentation at NeurIPS 2023 AI for Science Workshop 
 
-- Co-organizer with Jacob Viner and Nicky Brooks: QLM Summer School 2019, guided by Prof. Hendrik Ulbricht
+- Co-organizer: QLM Summer School 2019, guided by Prof. Hendrik Ulbricht
 
 ### Languages
 
