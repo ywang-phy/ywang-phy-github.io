@@ -43,6 +43,8 @@ Apr 2017 - Jul 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curi
 
 ### Activicities
 
+- Presentation at Math + ML + X Seminar (online, 24th April 2025), Yau Mathematical Sciences Center, Tsinghua University, Beijing, China
+
 - 2025 Winter School on Physics of Machine Learning & Machine Learning for Physics (12 Jan 2025 - 24 Jan 2025), The Nordic Institute for Theoretical Physics (Nordita), Stockholm, Sweden
 
 - Poster presentation at NeurIPS 2023 AI for Science Workshop 
