@@ -61,8 +61,9 @@ Apr 2017 - Jul 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curi
 ### Skills
 
 - **Programming**: C++, CUDA, MATLAB, Python
+- **Machine Learning**: PyTorch
 - **Simulation**: COMSOL Multiphysics
-- **Editing**: LaTex, Microsoft Office
+- **Editing**: HTML, LaTex, Microsoft Office
 
 ---
 
