@@ -16,8 +16,9 @@ Quantum Theory of Light-Matter Interactions, Parallel Computing, and Machine Lea
 ---
 
 ### Experience
+June 2025 - Present: **Research Associate**, University of Sheffield, United Kingdom
 
-August 2024 - Present: **Postdoctoral Research Fellow**, University of Exeter, United Kingdom
+August 2024 - May 2025: **Postdoctoral Research Fellow**, University of Exeter, United Kingdom
 
 August 2023 - July 2024: **Visitor**, University of Southampton, United Kingdom
 
