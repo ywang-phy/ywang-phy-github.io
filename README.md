@@ -6,7 +6,7 @@
 ### Contact
 - **GitHub**: https://github.com/ywang-phy
 - **LinkedIn**: www.linkedin.com/in/ywang-phy
-- **Email**: y.wang25@exeter.ac.uk & yuan.wang.phy@gmail.com
+- **Email**: ms4yw@sheffield.ac.uk & yuan.wang.phy@gmail.com
 
 ---
 
