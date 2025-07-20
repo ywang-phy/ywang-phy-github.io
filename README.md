@@ -69,6 +69,7 @@ Apr 2017 - Jul 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curi
 ---
 
 ### Publications
+- [7] Y. Wang, S. Scali, and O. Kyriienko, *Polaritonic Machine Learning for Graph-based Data Analysis*, Physical Review B, arXiv.2507.10415 (2025)
 - [6] K. Sawicki, D. Dovzhenko, Y. Wang, T. Cookson, H. Sigurðsson, and P. G. Lagoudakis, *Occupancy-driven Zeeman suppression and inversion in trapped polariton condensates*, Physical Review B **109**, 125307 (2024)
 - [5] Surya T. Sathujoda, Y. Wang, Kanishk Gandhi, *Exciton-Polariton Condensates: A Fourier Neural Operator Approach*, NeurIPS 2023 AI for Science Workshop (2023)
 - [4] Y. Wang, *Tailored reservoir of exciton-polariton condensates*, University of Southampton, (2023)
