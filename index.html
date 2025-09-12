@@ -120,8 +120,8 @@
     
     <p class="intro">
         I am passionate about <em>quantum light-matter interaction</em>, <em>parallel computing</em>, and <em>AI for science</em>, 
-        with expertise in developing computational tools for quantum systems, applying machine learning to accelerate 
-        scientific discovery (AI for Science), and leveraging physical principles to enhance machine learning 
+        with expertise in developing computational tools on GPU for quantum systems, applying machine learning to accelerate 
+        scientific discovery, and leveraging physical principles to enhance machine learning 
         architectures (Science for AI).
     </p>
 
@@ -156,7 +156,7 @@
             mentored by Prof. <a href="https://scholar.google.co.uk/citations?user=zrgk6IcAAAAJ&hl=en" target="_blank">Pavlos Lagoudakis</a>, 
             Prof. <a href="https://scholar.google.com/citations?user=FqjDzAMAAAAJ&hl=en" target="_blank">Simone De Liberato</a>, 
             and <em>unofficially</em> Dr. <a href="https://scholar.google.com/citations?user=7GLQa80AAAAJ&hl=en" target="_blank">Helgi Sigurðsson</a><br>
-            financed by the Royal Society, Grant No. RGF\EA\180062</li>
+        </li>
         <li>Sep 2017 - Jul 2018: Master's Double Degree (M2 Nanoscience), University of Ferrara, Italy</li>
         <li>Sep 2016 - Jul 2017: Master's Double Degree (M1 General Physics), Paris-Saclay University, France</li>
         <li>Sep 2012 - Jul 2016: Bachelor's Degree in Physics, Anhui Normal University, China</li>
@@ -197,10 +197,10 @@
         <p>In the field of simulating polariton condensates, there's a strong emphasis on leveraging advanced numerical methods, underpinned by a specialized computational tool that utilizes the capabilities of graphics processing units (GPUs). The split-step Fourier method (SSFM) is one of the central technique used for these simulations, offering a streamlined approach to solving partial differential equations in parallel computing environments. This method is also notably efficient when integrated into machine learning frameworks, offering innovative solutions for complex equations. My focus lies in developing computational tools based on NVIDIA's CUDA architecture, using C++ and CUDA APIs. This expertise encompasses both CPU-based and GPU-based GPE solvers, with a particular emphasis on utilizing SSFM for efficient problem-solving in the realm of quantum fluid dynamics.</p>
         
         <h4>Neural Operator</h4>
-        <p>Applied machine learning techniques to accelerate simulations of complex nonlinear quantum systems, specifically exciton-polariton condensates. Implemented a Fourier Neural Operator (FNO) approach to solve coupled Gross-Pitaevskii equations with exciton rate equations, achieving nearly 1000× speedup compared to traditional CUDA-based GPU solvers while maintaining high accuracy. The method successfully predicts steady-state condensate solutions and captures key physical phenomena including interference patterns, ballistic polariton flow, and nonlinear interactions between multiple condensates. Trained models on both numerical simulations and experimental datasets from high-quality semiconductor microcavities, demonstrating the first direct application of FNO to coupled exciton-polariton condensate systems.</p>
+        <p>A plethora of next-generation all-optical devices based on exciton-polaritons have been proposed in latest years, including prototypes of transistors, switches, analogue quantum simulators and others. However, for such systems consisting of multiple polariton condensates, it is still challenging to predict their properties in a fast and accurate manner. The condensate physics is conventionally described by polariton Gross-Pitaevskii equations (GPEs). While GPU-based solvers currently exist, we propose a significantly more efficient machine-learning-based Fourier neural operator approach to find the solution to the GPE coupled with exciton rate equations, trained on both numerical and experimental datasets. The proposed method predicts solutions almost three orders of magnitude faster than CUDA-based solvers  in numerical studies, maintaining the high degree of accuracy.</p>
         
-        <h4>Graph Neural Networks</h4>
-        <p>Developed a novel physics-informed approach to enhance graph convolutional networks (GCNs) by incorporating positional embeddings derived from photonic dynamics simulation. The method models correlations between molecular graph nodes through simulated optical wave propagation, providing a physically-grounded alternative to traditional spectral embeddings. The photonic-inspired approach demonstrates that domain-specific physical principles can effectively address fundamental limitations of GNNs in capturing long-range dependencies and global graph structure.</p>
+        <h4>Positional embedding in ML</h4>
+        <p>Graph Neural Networks (GNNs) are powerful tools for molecular property prediction, but their reliance on local message-passing mechanisms limits their ability to capture long-range dependencies in large graphs. We propose a physics-informed approach that enhances graph convolutional networks (GCNs) by incorporating positional embeddings derived from photonic dynamics simulation.</p>
         
         <h4>Polaritonic-informed ML</h4>
         <p>Developed a novel approach integrating photonic and polaritonic systems with machine learning for accelerated graph data analysis. Demonstrated how lattices of exciton-polariton condensates can efficiently embed relational and topological information from point cloud datasets into optical features, which are then processed by CNNs. The method exploits nonlinear optical properties of polariton condensates, including vortex formation and quantum fluid dynamics, to highlight topological features such as cliques and Betti numbers in graph structures.</p>
