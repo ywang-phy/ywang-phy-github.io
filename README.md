@@ -5,7 +5,7 @@
 - **Web**: https://ywang.org
 - **GitHub**: https://github.com/ywang-phy
 - **LinkedIn**: https://www.linkedin.com/in/ywang-phy
-- **Email**: ms4yw@sheffield.ac.uk & yuan.wang.phy@gmail.com
+- **Email**: yuan.wang.phy@gmail.com & ms4yw@sheffield.ac.uk 
 ---
 ### About
 I am passionate about quantum light-matter interaction, parallel computing, and AI for science, with expertise in developing computational tools on GPU for quantum systems, applying machine learning to accelerate scientific discovery, and leveraging physical principles to enhance machine learning architectures (Science for AI).
@@ -50,8 +50,8 @@ Topic: Quantum squeezing variance in second-mode approximation, mentored by Dr. 
 - Chinese (Native) & English (Fluent)
 ---
 ### Skills
-- **Programming**: C++, CUDA, MATLAB, Python **Machine learning**: PyTorch
-- **Simulation**: COMSOL Multiphysics **Editing**: HTML, LaTex, Microsoft Office
+- **Programming**: C++, CUDA, MATLAB, Python **Machine learning**: PyTorch **Version control**: Git, GitHub
+- **CI/CD**: GitHub Actions **Simulation**: COMSOL Multiphysics **Editing**: HTML, LaTex, Microsoft Office
 ---
 ### Interests
 - **Parallel Computing**: In the field of simulating polariton condensates, there's a strong emphasis on leveraging advanced numerical methods, underpinned by a specialized computational tool that utilizes the capabilities of graphics processing units (GPUs). The split-step Fourier method (SSFM) is one of the central technique used for these simulations, offering a streamlined approach to solving partial differential equations in parallel computing environments. This method is also notably efficient when integrated into machine learning frameworks, offering innovative solutions for complex equations. My focus lies in developing computational tools based on NVIDIA's CUDA architecture, using C++ and CUDA APIs. This expertise encompasses both CPU-based and GPU-based GPE solvers, with a particular emphasis on utilizing SSFM for efficient problem-solving in the realm of quantum fluid dynamics.
