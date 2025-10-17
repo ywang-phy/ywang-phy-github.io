@@ -5,7 +5,7 @@
 - **Web**: https://ywang.org
 - **GitHub**: https://github.com/ywang-phy
 - **LinkedIn**: https://www.linkedin.com/in/ywang-phy
-- **Email**: yuan.wang.phy@gmail.com & ms4yw@sheffield.ac.uk 
+- **Email**: yuan.wang.phy@gmail.com
 ---
 ### About
 I am passionate about quantum light-matter interaction, parallel computing, and AI for science, with expertise in developing computational tools on GPU for quantum systems, applying machine learning to accelerate scientific discovery, and leveraging physical principles to enhance machine learning architectures (Science for AI).
