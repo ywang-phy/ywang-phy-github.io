@@ -21,7 +21,7 @@ mentored by Prof. Oleksandr Kyriienko
 Aug 2023 - July 2024: **Visitor**, University of Southampton, United Kingdom
 
 ### Education
-Sept 2018 - Sep 2023: **PhD in Physics**, University of Southampton, United Kingdom  
+Sept 2018 - Sept 2023: **PhD in Physics**, University of Southampton, United Kingdom  
 Thesis entitled "Tailored reservoir of exciton-polariton condensates"  
 mentored by Prof. Pavlos Lagoudakis, Prof. Simone De Liberato, and unofficially Dr. Helgi Sigurðsson
 
