@@ -12,7 +12,7 @@ I am passionate about quantum light-matter interaction, parallel computing, and 
 
 ---
 ### Experience
-June 2025 - October 2025: **Research Associate**, University of Sheffield, United Kingdom  
+June 2025 - Oct 2025: **Research Associate**, University of Sheffield, United Kingdom  
 mentored by Prof. Oleksandr Kyriienko
 
 Aug 2024 - May 2025: **Postdoctoral Research Fellow**, University of Exeter, United Kingdom  
@@ -21,15 +21,15 @@ mentored by Prof. Oleksandr Kyriienko
 Aug 2023 - July 2024: **Visitor**, University of Southampton, United Kingdom
 
 ### Education
-Sep 2018 - Sep 2023: **PhD in Physics**, University of Southampton, United Kingdom  
+Sept 2018 - Sep 2023: **PhD in Physics**, University of Southampton, United Kingdom  
 Thesis entitled "Tailored reservoir of exciton-polariton condensates"  
 mentored by Prof. Pavlos Lagoudakis, Prof. Simone De Liberato, and unofficially Dr. Helgi Sigurðsson
 
-Sep 2017 - Jul 2018: **Master's Double Degree (M2 Nanoscience)**, University of Ferrara, Italy
+Sept 2017 - Jul 2018: **Master's Double Degree (M2 Nanoscience)**, University of Ferrara, Italy
 
-Sep 2016 - Jul 2017: **Master's Double Degree (M1 General Physics)**, Paris-Saclay University, France
+Sept 2016 - Jul 2017: **Master's Double Degree (M1 General Physics)**, Paris-Saclay University, France
 
-Sep 2012 - Jul 2016: **Bachelor's Degree in Physics**, Anhui Normal University, China
+Sept 2012 - Jul 2016: **Bachelor's Degree in Physics**, Anhui Normal University, China
 
 ---
 ### Internship
