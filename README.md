@@ -12,7 +12,7 @@ I am passionate about quantum light-matter interaction, parallel computing, and 
 
 ---
 ### Experience
-June 2025 - Oct 2025: **Research Associate**, University of Sheffield, United Kingdom  
+Jun 2025 - Oct 2025: **Research Associate**, University of Sheffield, United Kingdom  
 mentored by Prof. Oleksandr Kyriienko
 
 Aug 2024 - May 2025: **Postdoctoral Research Fellow**, University of Exeter, United Kingdom  
