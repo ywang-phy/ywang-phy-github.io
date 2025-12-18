@@ -68,7 +68,7 @@ Topic: Quantum squeezing variance in second-mode approximation, mentored by Dr. 
 [1] Surya T. Sathujoda*, Yuan Wang*, Kanishk Gandhi, *Exciton-Polariton Condensates: A Fourier Neural Operator Approach*, NeurIPS 2023 AI for Science Workshop (2023)
 
 ### Journal/Work in progress
-[9] Y. Wang and O. Kyriienko, *Photonics-informed graph convolutional networks*, manuscript near submission (2025)
+[9] Y. Wang and O. Kyriienko, *Photonics-Enhanced Graph Convolutional Networks*, arXiv.2512.15549 (2025)
 
 [8] K. Fripp, Y. Wang, O. Kyriienko, AV Shytov, and VV Kruglyak, *Magnonic Full Adder using Nanoscale Chiral Magnonic Resonators*, manuscript near submission (2025)
 
