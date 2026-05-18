@@ -12,6 +12,8 @@ I am passionate about quantum light-matter interaction, parallel computing, and 
 
 ---
 ### Experience
+May 2026 - Present: **Research Associate (KTP)**, University of Sheffield & Oxford Quantum Circuits, United Kingdom  
+
 Jun 2025 - Oct 2025: **Research Associate**, University of Sheffield, United Kingdom  
 mentored by Prof. Oleksandr Kyriienko
 
