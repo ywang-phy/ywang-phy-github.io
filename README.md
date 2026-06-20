@@ -1,4 +1,7 @@
 # Yuan Wang
+**QUANTUM PHYSICS × MACHINE LEARNING**
+
+- **Google Scholar**: https://scholar.google.co.uk/citations?user=mbBZzQgAAAAJ&hl=en
 - **ORCiD**: https://orcid.org/0000-0002-0688-3276
 ---
 ### Contact
@@ -8,19 +11,30 @@
 - **LinkedIn**: https://www.linkedin.com/in/ywang-phy
 ---
 ### About
-I am passionate about quantum light-matter interaction, parallel computing, and AI for science, with expertise in developing computational tools on GPU for quantum systems, applying machine learning to accelerate scientific discovery, and leveraging physical principles to enhance machine learning architectures (Science for AI).
+I am passionate about quantum light-matter interaction, parallel computing, and AI4Science: I develop GPU-based computational tools for quantum systems, apply machine learning to accelerate scientific discovery, and leverage physical principles to enhance machine-learning architectures (Science4AI).
+
+---
+### Research
+- **GPU-accelerated quantum simulation**: CPU- and GPU-based Gross-Pitaevskii equation (GPE) solvers in C++ and CUDA, built around the split-step Fourier method (SSFM), for fast and accurate simulation of quantum fluids of light such as exciton-polariton condensates. `CUDA` `C++` `SSFM` `GPE`
+
+- **Neural operators for condensate physics**: A Fourier neural operator approach, trained on numerical and experimental data, that solves the polariton GPE coupled with exciton rate equations almost three orders of magnitude faster than CUDA-based solvers while maintaining high accuracy. `AI4Science` `FNO` `Polariton Condensation`
+
+- **Photonics-enhanced machine learning**: Physics-informed positional embeddings (PEs) for graph neural networks (GNN) are derived from light propagation on synthetic frequency lattices whose couplings match the input graph. These internode intensity correlations supply GCNs with global structural information beyond local message passing, supporting the optical acceleration of graph ML. `Science4AI` `GNN` `PEs` `Synthetic Lattices`
+
+- **Generative modelling with polariton condensates**: Room-temperature exciton-polariton condensates in organic microcavities are employed as a physical stochastic nonlinear layer within a conditional generative adversarial network (GAN). Their nonlinear many-body dynamics and shot-to-shot fluctuations supply structured variability that stabilises adversarial training and surpasses digital sampling baselines on conditional digit-to-image translation. `Science4AI` `GAN` `Polariton Condensation`
+
+- **Exciton-polariton condensates**: Theory of enhancing and focusing polariton condensates in semiconductor microcavities via tailored non-resonant excitation: increasing spatial coherence and interaction strength toward all-optical transistors and large-scale condensate networks. `Microcavities` `Semiconductors` `Polariton Condensation`
 
 ---
 ### Experience
-May 2026 - Present: **Research Associate (KTP)**, University of Sheffield & Oxford Quantum Circuits, United Kingdom  
+May 2026 - Present: **Research Associate (KTP)**, University of Sheffield & Oxford Quantum Circuits, United Kingdom
 
 Jun 2025 - Oct 2025: **Research Associate**, University of Sheffield, United Kingdom  
-mentored by Prof. Oleksandr Kyriienko
-
 Aug 2024 - May 2025: **Postdoctoral Research Fellow**, University of Exeter, United Kingdom  
-mentored by Prof. Oleksandr Kyriienko
+Topic: *Developing machine-learning architectures integrating with quantum for scientific computing applications*; mentored by Prof. Oleksandr Kyriienko
 
-Aug 2023 - July 2024: **Visitor**, University of Southampton, United Kingdom
+Aug 2023 - July 2024: **Visitor**, University of Southampton, United Kingdom  
+Topic: *A Fourier neural operator approach for modelling exciton-polariton condensate systems*
 
 ### Education
 Sept 2018 - Sept 2023: **PhD in Physics**, University of Southampton, United Kingdom  
@@ -42,41 +56,30 @@ Apr 2017 - Jul 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curi
 Topic: Quantum squeezing variance in second-mode approximation, mentored by Dr. Simon Pigeon
 
 ---
-### Activities
-- Presentation at Math + ML + X Seminar (online, 24th April 2025), Yau Mathematical Sciences Center, Tsinghua University, Beijing, China
-- Attendance at 2025 Winter School on Physics of Machine Learning & Machine Learning for Physics (12 Jan 2025 - 24 Jan 2025), The Nordic Institute for Theoretical Physics (Nordita), Stockholm, Sweden
+### Talks & Activities
+- Invited talk at Math + ML + X Seminar (online, 24th April 2025), Yau Mathematical Sciences Center, Tsinghua University, Beijing, China — invited by Dr. Angelica I. Aviles-Rivero
+- Winter school on Physics of Machine Learning & Machine Learning for Physics (12 Jan 2025 - 24 Jan 2025), The Nordic Institute for Theoretical Physics (Nordita), Stockholm, Sweden
 - Poster presentation at NeurIPS 2023 AI for Science Workshop
 - Co-organizer: QLM Summer School 2019, guided by Prof. Hendrik Ulbricht
 
-### Languages
-- Chinese (Native) & English (Fluent)
----
-### Skills
-- **Programming**: C++, CUDA, MATLAB, Python **Machine learning**: PyTorch **Version control**: Git, GitHub
-- **CI/CD**: GitHub Actions **Simulation**: COMSOL Multiphysics **Editing**: HTML, LaTex, Microsoft Office
----
-### Interests
-- **Parallel Computing**: In the field of simulating polariton condensates, there's a strong emphasis on leveraging advanced numerical methods, underpinned by a specialized computational tool that utilizes the capabilities of graphics processing units (GPUs). The split-step Fourier method (SSFM) is one of the central technique used for these simulations, offering a streamlined approach to solving partial differential equations in parallel computing environments. This method is also notably efficient when integrated into machine learning frameworks, offering innovative solutions for complex equations. My focus lies in developing computational tools based on NVIDIA's CUDA architecture, using C++ and CUDA APIs. This expertise encompasses both CPU-based and GPU-based GPE solvers, with a particular emphasis on utilizing SSFM for efficient problem-solving in the realm of quantum fluid dynamics.
-
-- **Neural Operator**: A plethora of next-generation all-optical devices based on exciton-polaritons have been proposed in latest years, including prototypes of transistors, switches, analogue quantum simulators and others. However, for such systems consisting of multiple polariton condensates, it is still challenging to predict their properties in a fast and accurate manner. The condensate physics is conventionally described by polariton Gross-Pitaevskii equations (GPEs). While GPU-based solvers currently exist, we propose a significantly more efficient machine-learning-based Fourier neural operator approach to find the solution to the GPE coupled with exciton rate equations, trained on both numerical and experimental datasets. The proposed method predicts solutions almost three orders of magnitude faster than CUDA-based solvers in numerical studies, maintaining the high degree of accuracy.
-
-- **Positional embedding in ML**:
-  - Graph Neural Networks (GNNs) are powerful tools for molecular property prediction, but their reliance on local message-passing mechanisms limits their ability to capture long-range dependencies in large graphs. We propose a physics-informed approach that enhances graph convolutional networks (GCNs) by incorporating positional embeddings derived from photonic dynamics simulation.
-  - Photonics can offer a hardware-native route for machine learning (ML). However, efficient deployment of photonics-enhanced ML requires hybrid workflows that integrate optical processing with conventional CPU/GPU based neural network architectures. Here, we propose such a workflow that combines photonic positional embeddings (PEs) with advanced graph ML models. We introduce a photonics-based method that augments graph convolutional networks (GCNs) with PEs derived from light propagation on synthetic frequency lattices whose couplings match the input graph. We simulate propagation and readout to obtain internode intensity correlation matrices, which are used as PEs in GCNs to provide global structural information. Our results show that photonic PEs improve GCN performance and support optical acceleration of graph ML.
-
-- **Exciton-polariton condensate**: The AlGaAs-like quantum wells within high-quality microcavities, can generate exciton-polaritons (polaritons) in the strong coupling regime. At cryogenic temperatures, the polariton condensates can be formed through optically excited high-energy excitons. I focus on the theoretical development of the methods for enhancing and focusing these condensates, utilizing localized nonresonant asymmetric-shaped excitation. A significant aspect of my work involves increasing spatial coherence and optimizing interaction strength between polaritons, paving the way for the realization of all-optical transistors and contributing to large-scale polariton condensates networks.
+### Skills & Languages
+- **Programming**: C++, CUDA, Python, MATLAB &nbsp; **Machine learning**: PyTorch &nbsp; **Version control**: Git, GitHub
+- **CI/CD**: GitHub Actions &nbsp; **Simulation**: COMSOL Multiphysics &nbsp; **Editing**: LaTeX, HTML, Microsoft Office
+- **Languages**: Chinese (Native) & English (Fluent)
 ---
 ### Workshop
-[1] Surya T. Sathujoda*, Yuan Wang*, Kanishk Gandhi, *Exciton-Polariton Condensates: A Fourier Neural Operator Approach*, NeurIPS 2023 AI for Science Workshop (2023)
+[W1] Surya T. Sathujoda, Yuan Wang<sup>†</sup>, Kanishk Gandhi, *Exciton-Polariton Condensates: A Fourier Neural Operator Approach*, NeurIPS 2023 AI for Science Workshop (2023)
 
-### Journal/Work in progress
-[9] Y. Wang and O. Kyriienko, *Photonics-Enhanced Graph Convolutional Networks*, arXiv.2512.15549 (2025)
+### Journal/Preprint
+[10] Y. Wang, M. Muszynski, A. Dash, R. Kaurav, V. M. Menon, O. Kyriienko, *Generative modelling powered by room-temperature polariton condensates*, arXiv:2606.15344 (2026)
 
-[8] K. Fripp, Y. Wang, O. Kyriienko, AV Shytov, and VV Kruglyak, *Magnonic Full Adder using Nanoscale Chiral Magnonic Resonators*, manuscript near submission (2025)
+[9] K. Fripp, Y. Wang, O. Kyriienko, A. V. Shytov, and V. V. Kruglyak, *Magnonic Full Adder Based on 2D Chiral Magnonic Resonators*, arXiv.2603.00258 (2026)
+
+[8] Y. Wang and O. Kyriienko, *Photonics-Enhanced Graph Convolutional Networks*, arXiv.2512.15549 (2025)
 
 [7] Y. Wang, S. Scali, and O. Kyriienko, *Polaritonic Machine Learning for Graph-based Data Analysis*, arXiv.2507.10415 (2025)
 
-[6] Y. Wang*, Surya T. Sathujoda*, K. Sawicki, K. Gandhi, A. I Aviles-Rivero, and P. G. Lagoudakis, *A Fourier Neural Operator Approach for Modelling Exciton-Polariton Condensate Systems*, arXiv.2507.10415 (2025)
+[6] Y. Wang<sup>†</sup>, S. T. Sathujoda, K. Sawicki, K. Gandhi, A. I. Aviles-Rivero, and P. G. Lagoudakis, *A Fourier Neural Operator Approach for Modelling Exciton-Polariton Condensate Systems*, Communications Physics **8**, 505 (2025)
 
 [5] K. Sawicki, D. Dovzhenko, Y. Wang, T. Cookson, H. Sigurðsson, and P. G. Lagoudakis, *Occupancy-driven Zeeman suppression and inversion in trapped polariton condensates*, Physical Review B **109**, 125307 (2024)
 
@@ -87,3 +90,5 @@ Topic: Quantum squeezing variance in second-mode approximation, mentored by Dr. 
 [2] Y. Wang, H. Sigurdsson, J. D. Töpfer, and P. G. Lagoudakis, *Reservoir optics with exciton-polariton condensates*, Physical Review B **104**, 235306 (2021)
 
 [1] Y. Wang and S. De Liberato, *Theoretical proposals to measure resonator-induced modifications of the electronic ground state in doped quantum wells*, Physical Review A **104**, 023109 (2021)
+
+<sup>†</sup>corresponding author
