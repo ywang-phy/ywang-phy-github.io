@@ -3,165 +3,173 @@
 <head>
     <meta charset="utf-8">
     <title>Yuan Wang - CV</title>
-
-    <!-- Add the link to "Josefin Sans" font from Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+        /* ---------- palette (matches the LaTeX CV) ---------- */
+        :root {
+            --accent: #0066cc;   /* normal blue   (RGB 0,102,204) */
+            --ink:    #101826;    /* near-black    (RGB 16,24,38)  */
+            --inksoft:#44505f;    /* soft grey-blue(RGB 68,80,95)  */
+        }
+
+        * { box-sizing: border-box; }
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            max-width: 1000px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: var(--ink);
+            max-width: 820px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 36px 28px 60px;
+            line-height: 1.5;
+            font-size: 15px;
         }
 
         a {
-            color: black;
+            color: var(--accent);
             text-decoration: none;
         }
+        a:hover { text-decoration: underline; }
 
-        a:hover {
-            text-decoration: underline;
+        /* ---------- header ---------- */
+        .tagline {
+            text-align: right;
+            font-weight: bold;
+            font-size: 0.82em;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin: 0 0 4px;
+        }
+
+        h1 {
+            font-size: 2.1em;
+            margin: 0 0 8px;
+            color: var(--ink);
+        }
+
+        .header-links {
+            font-size: 0.86em;
+            line-height: 1.7;
+            margin: 0 0 16px;
+        }
+        .header-links .orcid-icon {
+            width: 1em;
+            vertical-align: baseline;
+            margin-inline-end: 0.3em;
+        }
+
+        .intro {
+            margin: 0 0 18px;
+            line-height: 1.55;
+        }
+
+        /* ---------- section headers: bold + thin blue rule ---------- */
+        h3 {
+            font-size: 1.18em;
+            font-weight: bold;
+            color: var(--ink);
+            margin: 26px 0 12px;
+            padding-bottom: 4px;
+            border-bottom: 1.2px solid var(--accent);
         }
 
         ul {
             padding-left: 20px;
+            margin: 0 0 4px;
         }
+        li { margin-bottom: 8px; }
 
-        ul li {
-            margin-bottom: 10px;
+        /* ---------- role rows:  Title | Place ........... Date ---------- */
+        .role {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 14px;
+            flex-wrap: wrap;
         }
-
-        h1 {
-            margin-top: 20px;
-            margin-bottom: 5px;
-        }
-
-        h3 {
-            margin-top: 30px;
-            margin-bottom: 15px;
-            border-bottom: 1px solid #333;
-            padding-bottom: 5px;
-        }
-
-        h4 {
-            margin-top: 15px;
-            margin-bottom: 6px;
-        }
-
-        hr {
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            margin-bottom: 15px;
-            line-height: 1.6;
-        }
-
-        .tagline {
-            font-weight: bold;
-            letter-spacing: 1px;
-            color: #6f8f1f;
-            margin-top: 10px;
-            margin-bottom: 0;
-        }
-
-        .header-links {
-            margin-top: 6px;
-            margin-bottom: 10px;
-            line-height: 1.8;
-        }
-
-        .header-links a {
-            color: #333;
-        }
-
-        .intro {
-            font-style: italic;
-            margin-bottom: 20px;
-            line-height: 1.6;
-        }
-
-        .publication-list {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        .publication-list li {
-            margin-left: 0;
-            padding-left: 0;
-            margin-bottom: 12px;
-        }
-
-        .research-section h4 {
-            font-weight: bold;
-        }
-
-        .research-section p {
-            margin-bottom: 6px;
-        }
-
-        .meta {
-            color: #555;
-            font-size: 0.95em;
-        }
-
-        .date {
-            color: #555;
-            font-size: 0.9em;
-        }
-
-        /* keyword tags (matches the \kw{} macro in the CV) */
-        .kw {
-            display: inline-block;
-            font-family: "Courier New", monospace;
-            font-size: 0.8em;
-            color: #5a7d12;
-            background-color: #f0f5e0;
-            border: 1px solid #d9e6b8;
-            border-radius: 4px;
-            padding: 1px 7px;
-            margin: 3px 4px 3px 0;
+        .role-title { font-weight: 700; }
+        .role-sep   { color: var(--inksoft); margin: 0 6px; }
+        .role-date  {
+            color: var(--inksoft);
+            font-size: 0.86em;
             white-space: nowrap;
+            margin-left: auto;
+        }
+        .sub {
+            font-size: 0.9em;
+            color: var(--inksoft);
+            margin-top: 2px;
+        }
+        .sub a { color: var(--accent); }
+
+        /* ---------- keyword tags (matches \kw{} : blue monospace) ---------- */
+        .kw {
+            font-family: "Courier New", monospace;
+            font-size: 0.82em;
+            color: var(--accent);
+            margin-right: 12px;
+            white-space: nowrap;
+        }
+        .kw-row { margin-top: 4px; }
+
+        .research p { margin: 0 0 4px; }
+        .research h4 {
+            margin: 14px 0 4px;
+            font-size: 1em;
+        }
+
+        /* ---------- publications ---------- */
+        .publication-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .publication-list li {
+            margin-bottom: 11px;
+            line-height: 1.5;
+        }
+        /* publication links rendered in black, as in the CV */
+        .publication-list a { color: var(--ink); }
+        .pub-tag {
+            color: var(--inksoft);
+            margin-right: 4px;
         }
 
         .footnote {
-            font-size: 0.9em;
-            color: #555;
-            margin-top: 10px;
+            font-size: 0.85em;
+            color: var(--inksoft);
+            margin-top: 14px;
         }
 
+        /* ---------- download button (CV blue) ---------- */
         .download-button {
-            font-size: 1.5em;
-            margin-top: 10px;
+            font-size: 0.95em;
+            font-weight: 600;
+            margin: 4px 0 8px;
             display: inline-block;
-            padding: 10px 20px;
+            padding: 9px 18px;
             border: none;
-            background-color: #a6cf39;
-            color: white;
+            background-color: var(--accent);
+            color: #fff;
             cursor: pointer;
             border-radius: 5px;
+            letter-spacing: 0.3px;
         }
-
-        .download-button:hover {
-            background-color: #8fb32d;
-        }
+        .download-button:hover { background-color: #0a5ab0; }
+        .download-wrap a:hover { text-decoration: none; }
     </style>
 </head>
 <body>
-    <h1>Yuan Wang</h1>
-    <p class="tagline">QUANTUM PHYSICS &times; MACHINE LEARNING</p>
 
+    <!-- ================= HEADER ================= -->
+    <p class="tagline">QUANTUM PHYSICS &times; MACHINE LEARNING</p>
+    <h1>Yuan Wang</h1>
     <p class="header-links">
         <a href="https://scholar.google.co.uk/citations?user=mbBZzQgAAAAJ&hl=en" target="_blank">Google Scholar</a> &bull;
         <a id="cy-effective-orcid-url"
            href="https://orcid.org/0000-0002-0688-3276"
            target="orcid.widget"
-           rel="me noopener noreferrer">
-            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
-                 style="width: 1em; vertical-align: baseline; margin-inline-end: 0.3em"
+           rel="me noopener noreferrer"><img class="orcid-icon"
+                 src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
                  alt="ORCID iD icon"/>ORCiD: 0000-0002-0688-3276</a> &bull;
         <a href="https://github.com/ywang-phy" target="_blank">github.com/ywang-phy</a><br>
         <a href="https://www.ywang.org" target="_blank">ywang.org</a> &bull;
@@ -175,88 +183,163 @@
         discovery, and leverage physical principles to enhance machine-learning architectures (Science4AI).
     </p>
 
-    <a href="https://github.com/ywang-phy/ywang-phy-github.io/raw/main/CV_Yuan_Wang.pdf" target="_blank">
-        <button class="download-button">Download my CV (PDF)</button>
-    </a>
+    <div class="download-wrap">
+        <a href="https://github.com/ywang-phy/ywang-phy-github.io/raw/main/CV_Yuan_Wang.pdf" target="_blank">
+            <button class="download-button">Download my CV (PDF)</button>
+        </a>
+    </div>
 
+    <!-- ================= RESEARCH ================= -->
     <h3>Research</h3>
-    <div class="research-section">
+    <div class="research">
         <h4>GPU-accelerated quantum simulation</h4>
         <p>CPU- and GPU-based Gross-Pitaevskii equation (GPE) solvers in C++ and CUDA, built around the split-step
         Fourier method (SSFM), for fast and accurate simulation of quantum fluids of light such as exciton-polariton
         condensates.</p>
-        <p><span class="kw">CUDA</span><span class="kw">C++</span><span class="kw">SSFM</span><span class="kw">GPE</span></p>
+        <p class="kw-row"><span class="kw">CUDA</span><span class="kw">C++</span><span class="kw">SSFM</span><span class="kw">GPE</span></p>
 
         <h4>Neural operators for condensate physics</h4>
         <p>A Fourier neural operator approach, trained on numerical and experimental data, that solves the polariton GPE
         coupled with exciton rate equations almost three orders of magnitude faster than CUDA-based solvers while
         maintaining high accuracy.</p>
-        <p><span class="kw">AI4Science</span><span class="kw">FNO</span><span class="kw">Polariton Condensation</span></p>
+        <p class="kw-row"><span class="kw">AI4Science</span><span class="kw">FNO</span><span class="kw">Polariton Condensation</span></p>
 
         <h4>Photonics-enhanced machine learning</h4>
         <p>Physics-informed positional embeddings (PEs) for graph neural networks (GNN) are derived from light propagation
         on synthetic frequency lattices whose couplings match the input graph. These internode intensity correlations
         supply GCNs with global structural information beyond local message passing, supporting the optical acceleration
         of graph ML.</p>
-        <p><span class="kw">Science4AI</span><span class="kw">GNN</span><span class="kw">PEs</span><span class="kw">Synthetic Lattices</span></p>
+        <p class="kw-row"><span class="kw">Science4AI</span><span class="kw">GNN</span><span class="kw">PEs</span><span class="kw">Synthetic Lattices</span></p>
 
         <h4>Generative modelling with polariton condensates</h4>
         <p>Room-temperature exciton-polariton condensates in organic microcavities are employed as a physical stochastic
         nonlinear layer within a conditional generative adversarial network (GAN). Their nonlinear many-body dynamics and
         shot-to-shot fluctuations supply structured variability that stabilises adversarial training and surpasses digital
         sampling baselines on conditional digit-to-image translation.</p>
-        <p><span class="kw">Science4AI</span><span class="kw">GAN</span><span class="kw">Polariton Condensation</span></p>
+        <p class="kw-row"><span class="kw">Science4AI</span><span class="kw">GAN</span><span class="kw">Polariton Condensation</span></p>
 
         <h4>Exciton-polariton condensates</h4>
         <p>Theory of enhancing and focusing polariton condensates in semiconductor microcavities via tailored
         non-resonant excitation: increasing spatial coherence and interaction strength toward all-optical transistors and
         large-scale condensate networks.</p>
-        <p><span class="kw">Microcavities</span><span class="kw">Semiconductors</span><span class="kw">Polariton Condensation</span></p>
+        <p class="kw-row"><span class="kw">Microcavities</span><span class="kw">Semiconductors</span><span class="kw">Polariton Condensation</span></p>
     </div>
 
+    <!-- ================= EXPERIENCE ================= -->
     <h3>Experience</h3>
     <ul>
-        <li>May 2026 - Present: Research Associate (KTP), University of Sheffield &amp; Oxford Quantum Circuits, United Kingdom</li>
-        <li>Jun 2025 - Oct 2025: Research Associate, University of Sheffield, United Kingdom<br>
-            Aug 2024 - May 2025: Postdoctoral Research Fellow, University of Exeter, United Kingdom<br>
-            <span class="meta">Topic: <em>Developing machine-learning architectures integrating with quantum for scientific computing applications</em>;
-            mentored by Prof. <a href="https://scholar.google.com/citations?user=bHTE4_8AAAAJ&hl=en" target="_blank">Oleksandr Kyriienko</a></span></li>
-        <li>Aug 2023 - Jul 2024: Visitor, University of Southampton, United Kingdom<br>
-            <span class="meta">Topic: <em>A Fourier neural operator approach for modelling exciton-polariton condensate systems</em></span></li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Research Associate (KTP)</span><span class="role-sep">|</span>University of Sheffield &amp; Oxford Quantum Circuits, UK</span>
+                <span class="role-date">May 2026 - Present</span>
+            </div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Research Associate</span><span class="role-sep">|</span>University of Sheffield, UK</span>
+                <span class="role-date">Jun 2025 - Oct 2025</span>
+            </div>
+            <div class="role">
+                <span><span class="role-title">Postdoctoral Research Fellow</span><span class="role-sep">|</span>University of Exeter, UK</span>
+                <span class="role-date">Aug 2024 - May 2025</span>
+            </div>
+            <div class="sub">Topic: <em>Developing machine-learning architectures integrating with quantum for scientific computing applications</em>;
+                mentored by Prof. <a href="https://scholar.google.com/citations?user=bHTE4_8AAAAJ&hl=en" target="_blank">Oleksandr Kyriienko</a></div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Visitor</span><span class="role-sep">|</span>University of Southampton, UK</span>
+                <span class="role-date">Aug 2023 - Jul 2024</span>
+            </div>
+            <div class="sub">Topic: <em>A Fourier neural operator approach for modelling exciton-polariton condensate systems</em></div>
+        </li>
     </ul>
 
+    <!-- ================= EDUCATION ================= -->
     <h3>Education</h3>
     <ul>
-        <li>Sept 2018 - Sept 2023: PhD in Physics, University of Southampton, United Kingdom<br>
-            Thesis entitled <a href="https://eprints.soton.ac.uk/480385/" target="_blank"><em>"Tailored reservoir of exciton-polariton condensates"</em></a><br>
-            mentored by Prof. <a href="https://scholar.google.co.uk/citations?user=zrgk6IcAAAAJ&hl=en" target="_blank">Pavlos Lagoudakis</a>,
-            Prof. <a href="https://scholar.google.com/citations?user=FqjDzAMAAAAJ&hl=en" target="_blank">Simone De Liberato</a>,
-            and <em>unofficially</em> Dr. <a href="https://scholar.google.com/citations?user=7GLQa80AAAAJ&hl=en" target="_blank">Helgi Sigurðsson</a>
+        <li>
+            <div class="role">
+                <span><span class="role-title">PhD in Physics</span><span class="role-sep">|</span>University of Southampton, UK</span>
+                <span class="role-date">Sept 2018 - Sept 2023</span>
+            </div>
+            <div class="sub">Thesis: <a href="https://eprints.soton.ac.uk/480385/" target="_blank"><em>Tailored reservoir of exciton-polariton condensates</em></a><br>
+                mentored by Prof. <a href="https://scholar.google.co.uk/citations?user=zrgk6IcAAAAJ&hl=en" target="_blank">Pavlos Lagoudakis</a>,
+                Prof. <a href="https://scholar.google.com/citations?user=FqjDzAMAAAAJ&hl=en" target="_blank">Simone De Liberato</a>,
+                and <em>unofficially</em> Dr. <a href="https://scholar.google.com/citations?user=7GLQa80AAAAJ&hl=en" target="_blank">Helgi Sigurðsson</a></div>
         </li>
-        <li>Sept 2017 - Jul 2018: Master's Double Degree (M2 Nanoscience), University of Ferrara, Italy</li>
-        <li>Sept 2016 - Jul 2017: Master's Double Degree (M1 General Physics), Paris-Saclay University, France</li>
-        <li>Sept 2012 - Jul 2016: Bachelor's Degree in Physics, Anhui Normal University, China</li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Master's Double Degree, M2 Nanoscience</span><span class="role-sep">|</span>University of Ferrara, Italy</span>
+                <span class="role-date">Sept 2017 - Jul 2018</span>
+            </div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Master's Double Degree, M1 General Physics</span><span class="role-sep">|</span>Paris-Saclay University, France</span>
+                <span class="role-date">Sept 2016 - Jul 2017</span>
+            </div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Bachelor's Degree, Physics</span><span class="role-sep">|</span>Anhui Normal University, China</span>
+                <span class="role-date">Sept 2012 - Jul 2016</span>
+            </div>
+        </li>
     </ul>
 
+    <!-- ================= INTERNSHIPS ================= -->
     <h3>Internships</h3>
     <ul>
-        <li>Feb 2018 - Jul 2018: Quantum Theory and Technology, University of Southampton, United Kingdom<br>
-            Topic: <em>Quantum theory of the intersubband polaritons</em>, mentored by Prof. <a href="https://scholar.google.com/citations?user=FqjDzAMAAAAJ&hl=en" target="_blank">Simone De Liberato</a></li>
-        <li>Apr 2017 - Jul 2017: Quantum Optics, Sorbonne University - Pierre and Marie Curie Campus, France<br>
-            Topic: <em>Quantum squeezing variance in second-mode approximation</em>, mentored by Dr. <a href="https://scholar.google.co.uk/citations?user=O3BE29EAAAAJ&hl=en" target="_blank">Simon Pigeon</a></li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Quantum Theory and Technology</span><span class="role-sep">|</span>University of Southampton, UK</span>
+                <span class="role-date">Feb 2018 - Jul 2018</span>
+            </div>
+            <div class="sub">Topic: <em>Quantum theory of the intersubband polaritons</em>, mentored by Prof. <a href="https://scholar.google.com/citations?user=FqjDzAMAAAAJ&hl=en" target="_blank">Simone De Liberato</a></div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Quantum Optics</span><span class="role-sep">|</span>Sorbonne University, France</span>
+                <span class="role-date">Apr 2017 - Jul 2017</span>
+            </div>
+            <div class="sub">Topic: <em>Quantum squeezing variance in second-mode approximation</em>, mentored by Dr. <a href="https://scholar.google.co.uk/citations?user=O3BE29EAAAAJ&hl=en" target="_blank">Simon Pigeon</a></div>
+        </li>
     </ul>
 
+    <!-- ================= TALKS & ACTIVITIES ================= -->
     <h3>Talks &amp; Activities</h3>
     <ul>
-        <li>Invited talk at <em>Math + ML + X Seminar</em> (online, 24th April 2025)<br>
-            Yau Mathematical Sciences Center, Tsinghua University, Beijing, China<br>
-            invited by Dr. <a href="https://scholar.google.com/citations?user=q5AA4lEAAAAJ&hl=en" target="_blank">Angelica I. Aviles-Rivero</a></li>
-        <li>Winter school on <em>Physics of Machine Learning &amp; Machine Learning for Physics</em><br>
-            (12 Jan 2025 - 24 Jan 2025), The Nordic Institute for Theoretical Physics (Nordita), Stockholm, Sweden</li>
-        <li>Poster presentation at <em>NeurIPS 2023 AI for Science Workshop</em></li>
-        <li>Co-organizer: <em>QLM Summer School 2019</em>, guided by Prof. <a href="https://scholar.google.com/citations?user=6d15M50AAAAJ&hl=en" target="_blank">Hendrik Ulbricht</a></li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Invited talk</span><span class="role-sep">|</span><em>Math + ML + X Seminar</em> (online)</span>
+                <span class="role-date">24 Apr 2025</span>
+            </div>
+            <div class="sub">Yau Mathematical Sciences Center, Tsinghua University, Beijing, China — invited by Dr. <a href="https://scholar.google.com/citations?user=q5AA4lEAAAAJ&hl=en" target="_blank">Angelica I. Aviles-Rivero</a></div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Winter school</span><span class="role-sep">|</span><em>Physics of Machine Learning &amp; Machine Learning for Physics</em></span>
+                <span class="role-date">12 - 24 Jan 2025</span>
+            </div>
+            <div class="sub">The Nordic Institute for Theoretical Physics (Nordita), Stockholm, Sweden</div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Poster presentation</span><span class="role-sep">|</span>NeurIPS 2023 AI for Science Workshop</span>
+                <span class="role-date">Dec 2023</span>
+            </div>
+        </li>
+        <li>
+            <div class="role">
+                <span><span class="role-title">Co-organizer</span><span class="role-sep">|</span>QLM Summer School</span>
+                <span class="role-date">2019</span>
+            </div>
+            <div class="sub">guided by Prof. <a href="https://scholar.google.com/citations?user=6d15M50AAAAJ&hl=en" target="_blank">Hendrik Ulbricht</a></div>
+        </li>
     </ul>
 
+    <!-- ================= SKILLS ================= -->
     <h3>Skills &amp; Languages</h3>
     <ul>
         <li><strong>Programming</strong>: C++, CUDA, Python, MATLAB &nbsp;&nbsp; <strong>Machine learning</strong>: PyTorch &nbsp;&nbsp; <strong>Version control</strong>: Git, GitHub</li>
@@ -264,23 +347,25 @@
         <li><strong>Languages</strong>: Chinese (Native) &amp; English (Fluent)</li>
     </ul>
 
+    <!-- ================= WORKSHOP ================= -->
     <h3>Workshop</h3>
     <ul class="publication-list">
-        <li>[W1] <a href="https://openreview.net/forum?id=D1OcdXlFcL" target="_blank">S. T. Sathujoda, <strong>Y. Wang</strong><sup>&dagger;</sup>, K. Gandhi, <em>Exciton-Polariton Condensates: A Fourier Neural Operator Approach</em>, NeurIPS 2023 AI for Science Workshop (2023)</a></li>
+        <li><span class="pub-tag">[W1]</span><a href="https://openreview.net/forum?id=D1OcdXlFcL" target="_blank">S. T. Sathujoda, <strong>Y. Wang</strong><sup>&dagger;</sup>, K. Gandhi, <em>Exciton-Polariton Condensates: A Fourier Neural Operator Approach</em>, NeurIPS 2023 AI for Science Workshop (2023)</a></li>
     </ul>
 
+    <!-- ================= JOURNAL / PREPRINT ================= -->
     <h3>Journal/Preprint</h3>
     <ul class="publication-list">
-        <li>[10] <a href="https://arxiv.org/pdf/2606.15344" target="_blank"><strong>Y. Wang</strong>, M. Muszynski, A. Dash, R. Kaurav, V. M. Menon, O. Kyriienko, <em>Generative modelling powered by room-temperature polariton condensates</em>, arXiv:2606.15344 (2026)</a></li>
-        <li>[9] <a href="https://arxiv.org/abs/2603.00258" target="_blank">K. Fripp, <strong>Y. Wang</strong>, O. Kyriienko, A. V. Shytov, and V. V. Kruglyak, <em>Magnonic Full Adder Based on 2D Chiral Magnonic Resonators</em>, arXiv.2603.00258 (2026)</a></li>
-        <li>[8] <a href="https://doi.org/10.48550/arXiv.2512.15549" target="_blank"><strong>Y. Wang</strong> and O. Kyriienko, <em>Photonics-Enhanced Graph Convolutional Networks</em>, arXiv.2512.15549 (2025)</a></li>
-        <li>[7] <a href="https://doi.org/10.48550/arXiv.2507.10415" target="_blank"><strong>Y. Wang</strong>, S. Scali, and O. Kyriienko, <em>Polaritonic Machine Learning for Graph-based Data Analysis</em>, arXiv.2507.10415 (2025)</a></li>
-        <li>[6] <a href="https://www.nature.com/articles/s42005-025-02409-2" target="_blank"><strong>Y. Wang</strong><sup>&dagger;</sup>, S. T. Sathujoda, K. Sawicki, K. Gandhi, A. I. Aviles-Rivero, and P. G. Lagoudakis, <em>A Fourier Neural Operator Approach for Modelling Exciton-Polariton Condensate Systems</em>, Communications Physics <strong>8</strong>, 505 (2025)</a></li>
-        <li>[5] <a href="https://doi.org/10.1103/PhysRevB.109.125307" target="_blank">K. Sawicki, D. Dovzhenko, <strong>Y. Wang</strong>, T. Cookson, H. Sigurðsson, and P. G. Lagoudakis, <em>Occupancy-driven Zeeman suppression and inversion in trapped polariton condensates</em>, Physical Review B <strong>109</strong>, 125307 (2024)</a></li>
-        <li>[4] <a href="https://eprints.soton.ac.uk/480385/" target="_blank"><strong>Y. Wang</strong>, <em>Tailored reservoir of exciton-polariton condensates</em>, University of Southampton, PhD Thesis (2023)</a></li>
-        <li>[3] <a href="https://doi.org/10.1103/PhysRevB.106.245304" target="_blank"><strong>Y. Wang</strong>, P. G. Lagoudakis, and H. Sigurdsson, <em>Enhanced coupling between ballistic exciton-polariton condensates through tailored pumping</em>, Physical Review B <strong>106</strong>, 245304 (2022)</a></li>
-        <li>[2] <a href="https://doi.org/10.1103/PhysRevB.104.235306" target="_blank"><strong>Y. Wang</strong>, H. Sigurdsson, J. D. Töpfer, and P. G. Lagoudakis, <em>Reservoir optics with exciton-polariton condensates</em>, Physical Review B <strong>104</strong>, 235306 (2021)</a></li>
-        <li>[1] <a href="https://doi.org/10.1103/PhysRevA.104.023109" target="_blank"><strong>Y. Wang</strong> and S. De Liberato, <em>Theoretical proposals to measure resonator-induced modifications of the electronic ground state in doped quantum wells</em>, Physical Review A <strong>104</strong>, 023109 (2021)</a></li>
+        <li><span class="pub-tag">[10]</span><a href="https://arxiv.org/pdf/2606.15344" target="_blank"><strong>Y. Wang</strong>, M. Muszynski, A. Dash, R. Kaurav, V. M. Menon, O. Kyriienko, <em>Generative modelling powered by room-temperature polariton condensates</em>, arXiv:2606.15344 (2026)</a></li>
+        <li><span class="pub-tag">[9]</span><a href="https://arxiv.org/abs/2603.00258" target="_blank">K. Fripp, <strong>Y. Wang</strong>, O. Kyriienko, A. V. Shytov, and V. V. Kruglyak, <em>Magnonic Full Adder Based on 2D Chiral Magnonic Resonators</em>, arXiv.2603.00258 (2026)</a></li>
+        <li><span class="pub-tag">[8]</span><a href="https://doi.org/10.48550/arXiv.2512.15549" target="_blank"><strong>Y. Wang</strong> and O. Kyriienko, <em>Photonics-Enhanced Graph Convolutional Networks</em>, arXiv.2512.15549 (2025)</a></li>
+        <li><span class="pub-tag">[7]</span><a href="https://doi.org/10.48550/arXiv.2507.10415" target="_blank"><strong>Y. Wang</strong>, S. Scali, and O. Kyriienko, <em>Polaritonic Machine Learning for Graph-based Data Analysis</em>, arXiv.2507.10415 (2025)</a></li>
+        <li><span class="pub-tag">[6]</span><a href="https://www.nature.com/articles/s42005-025-02409-2" target="_blank"><strong>Y. Wang</strong><sup>&dagger;</sup>, S. T. Sathujoda, K. Sawicki, K. Gandhi, A. I. Aviles-Rivero, and P. G. Lagoudakis, <em>A Fourier Neural Operator Approach for Modelling Exciton-Polariton Condensate Systems</em>, Communications Physics <strong>8</strong>, 505 (2025)</a></li>
+        <li><span class="pub-tag">[5]</span><a href="https://doi.org/10.1103/PhysRevB.109.125307" target="_blank">K. Sawicki, D. Dovzhenko, <strong>Y. Wang</strong>, T. Cookson, H. Sigurðsson, and P. G. Lagoudakis, <em>Occupancy-driven Zeeman suppression and inversion in trapped polariton condensates</em>, Physical Review B <strong>109</strong>, 125307 (2024)</a></li>
+        <li><span class="pub-tag">[4]</span><a href="https://eprints.soton.ac.uk/480385/" target="_blank"><strong>Y. Wang</strong>, <em>Tailored reservoir of exciton-polariton condensates</em>, University of Southampton, PhD Thesis (2023)</a></li>
+        <li><span class="pub-tag">[3]</span><a href="https://doi.org/10.1103/PhysRevB.106.245304" target="_blank"><strong>Y. Wang</strong>, P. G. Lagoudakis, and H. Sigurdsson, <em>Enhanced coupling between ballistic exciton-polariton condensates through tailored pumping</em>, Physical Review B <strong>106</strong>, 245304 (2022)</a></li>
+        <li><span class="pub-tag">[2]</span><a href="https://doi.org/10.1103/PhysRevB.104.235306" target="_blank"><strong>Y. Wang</strong>, H. Sigurdsson, J. D. Töpfer, and P. G. Lagoudakis, <em>Reservoir optics with exciton-polariton condensates</em>, Physical Review B <strong>104</strong>, 235306 (2021)</a></li>
+        <li><span class="pub-tag">[1]</span><a href="https://doi.org/10.1103/PhysRevA.104.023109" target="_blank"><strong>Y. Wang</strong> and S. De Liberato, <em>Theoretical proposals to measure resonator-induced modifications of the electronic ground state in doped quantum wells</em>, Physical Review A <strong>104</strong>, 023109 (2021)</a></li>
     </ul>
 
     <p class="footnote"><sup>&dagger;</sup>corresponding author</p>
