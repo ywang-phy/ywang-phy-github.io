@@ -71,13 +71,14 @@ Topic: Quantum squeezing variance in second-mode approximation, mentored by Dr. 
 [W1] Surya T. Sathujoda, Yuan Wang<sup>†</sup>, Kanishk Gandhi, *Exciton-Polariton Condensates: A Fourier Neural Operator Approach*, NeurIPS 2023 AI for Science Workshop (2023)
 
 ### Journal/Preprint
-[10] Y. Wang, M. Muszynski, A. Dash, R. Kaurav, V. M. Menon, O. Kyriienko, *Generative modelling powered by room-temperature polariton condensates*, arXiv:2606.15344 (2026)
 
-[9] K. Fripp, Y. Wang, O. Kyriienko, A. V. Shytov, and V. V. Kruglyak, *Magnonic Full Adder Based on 2D Chiral Magnonic Resonators*, arXiv.2603.00258 (2026)
+[10] Y. Wang, S. Scali, and O. Kyriienko, *Polaritonic Machine Learning for Graph-based Data Analysis*, Physical Review E **114**, 025305 (2026)
 
-[8] Y. Wang and O. Kyriienko, *Photonics-Enhanced Graph Convolutional Networks*, arXiv.2512.15549 (2025)
+[9] Y. Wang, M. Muszynski, A. Dash, R. Kaurav, V. M. Menon, O. Kyriienko, *Generative modelling powered by room-temperature polariton condensates*, arXiv:2606.15344 (2026)
 
-[7] Y. Wang, S. Scali, and O. Kyriienko, *Polaritonic Machine Learning for Graph-based Data Analysis*, arXiv.2507.10415 (2025)
+[8] K. Fripp, Y. Wang, O. Kyriienko, A. V. Shytov, and V. V. Kruglyak, *Magnonic Full Adder Based on 2D Chiral Magnonic Resonators*, arXiv.2603.00258 (2026)
+
+[7] Y. Wang and O. Kyriienko, *Photonics-Enhanced Graph Convolutional Networks*, arXiv.2512.15549 (2025)
 
 [6] Y. Wang<sup>†</sup>, S. T. Sathujoda, K. Sawicki, K. Gandhi, A. I. Aviles-Rivero, and P. G. Lagoudakis, *A Fourier Neural Operator Approach for Modelling Exciton-Polariton Condensate Systems*, Communications Physics **8**, 505 (2025)
 
